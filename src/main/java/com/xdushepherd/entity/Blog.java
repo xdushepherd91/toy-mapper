@@ -1,7 +1,8 @@
-package com.xdushepherd.example;
+package com.xdushepherd.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author wangqianyi03
@@ -9,6 +10,7 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Blog {
     private String title;
 }

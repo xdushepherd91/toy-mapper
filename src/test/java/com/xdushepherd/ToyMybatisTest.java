@@ -1,7 +1,7 @@
 package com.xdushepherd;
 
-import com.xdushepherd.example.Blog;
-import com.xdushepherd.example.BlogMapper;
+import com.xdushepherd.entity.Blog;
+import com.xdushepherd.mapper.BlogMapper;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
