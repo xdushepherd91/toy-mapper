@@ -18,4 +18,12 @@ class ToyMybatisTest {
         Blog firstBlog = mapper.getFirstBlog();
         assertEquals("toy-mybatis的第一篇博客", firstBlog.getTitle());
     }
+
+    @Test
+    void testSelectBlog() {
+        BlogMapper mapper = (BlogMapper) ToyMybatis.getMapper(BlogMapper.class);
+        Blog firstBlog = mapper.selectBlog(1L);
+        assertEquals("toy-mybatis的第一篇博客", firstBlog.getTitle());
+
+    }
 }
